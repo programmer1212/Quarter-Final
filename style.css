@@ -1,0 +1,82 @@
+li {
+  display: inline;
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(134,133,152);
+  overflow: scroll;
+}
+
+li:hover {
+  color: red;
+}
+
+nav {
+    word-spacing: 30px;
+    margin-bottom: 50px;
+    background-color: #5FD8F0;
+}
+
+.description{
+  font-size: 30px;
+  opacity: 30%;
+}
+
+.contain {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 100%;
+}
+
+.description:hover {
+  opacity: 90%;
+  color: red;
+}
+.savage img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+  backface-visibility: visible;
+}
+
+.savage p {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: relative;
+  top: -100px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+}
+
+img:hover {
+  opacity: 0.3;
+}
+
+p:hover {
+  opacity: 1;
+}
+.description {
+  color: grey;
+  opacity: 30%;
+  font-size: 18px;
+}
+
+.matrix {
+  background-image: url("./resources/pictures/matrix art.jpg");
+}
+
+.summer {
+  background-image: url("./resources/pictures/summer art.jpg");
+}
+
+.godmode {
+  background-image: url("./resources/pictures/Yachty art.jpg");
+}
